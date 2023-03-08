@@ -1,0 +1,29 @@
+
+.jumbotron{
+    padding-top : 10rem;
+    background-color: #282A3A;
+
+}
+#galeri{
+    background-color: #282A3A;
+}
+#about {
+    background-color: #735F32;
+}
+#footer {
+    background-color: #212529;
+    
+}
+#contact {
+    background-color: #212529;
+    
+}
+.card{
+    background-color: #282A3A;
+    margin-bottom: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+section{
+    padding-top: 10rem;
+}
