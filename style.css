@@ -1,29 +1,27 @@
-
-.jumbotron{
-    padding-top : 10rem;
-    background-color: #282A3A;
-
+.jumbotron {
+  padding-top: 10rem;
+  /* background-color: #282a3a; */
+  background-image: url(img/7c5d5c161543011.63c6f9ddc4ce9.png);
+  background-position: 50% 50%;
 }
-#galeri{
-    background-color: #282A3A;
+#galeri {
+  background-color: #282a3a;
 }
 #about {
-    background-color: #735F32;
+  background-color: #735f32;
 }
 #footer {
-    background-color: #212529;
-    
+  background-color: #212529;
 }
 #contact {
-    background-color: #212529;
-    
+  background-color: #212529;
 }
-.card{
-    background-color: #282A3A;
-    margin-bottom: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    
+.card {
+  background-color: #282a3a;
+  margin-bottom: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
-section{
-    padding-top: 10rem;
+section {
+  padding-top: 10rem;
 }
