@@ -3,7 +3,7 @@
   /* background-color: #282a3a; */
   background-image: url(img/7c5d5c161543011.63c6f9ddc4ce9.png);
   background-position: 50% 50%;
-  background-size: cover;
+  min-height: 100vh;
 }
 #galeri {
   background-color: #282a3a;
