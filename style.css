@@ -11,9 +11,12 @@
   background-color: #735f32;
 }
 #footer {
-  background-color: #212529;
+  background-color: #282a3a;
 }
 #contact {
+  background-color: #282a3a;
+}
+#slide {
   background-color: #212529;
 }
 .card {
@@ -24,4 +27,11 @@
 }
 section {
   padding-top: 10rem;
+}
+
+.exc {
+  text-decoration: underline #735f32 3px solid;
+}
+.carousel {
+  padding: 5rem;
 }
