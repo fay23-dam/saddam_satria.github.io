@@ -27,7 +27,7 @@
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 section {
-  padding-top: 10rem;
+  padding-top: 7rem;
 }
 
 .exc {
@@ -35,4 +35,57 @@ section {
 }
 .carousel img {
   border-radius: 50px;
+}
+.modal-bys {
+  background-color: #282a3a;
+}
+
+#sled {
+  background-color: #212529;
+}
+.barang {
+  overflow: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  height: 50vh;
+  background-color: #212529;
+}
+.barang::-webkit-scrollbar-track {
+  background-color: #212529;
+}
+.barang::-webkit-scrollbar {
+  width: 6px;
+  background-color: #212529;
+}
+
+.barang::-webkit-scrollbar-thumb {
+  background-color: #212529;
+}
+.barang .spek {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+.spek img {
+  height: 50%;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: 20px;
+}
+.spa {
+  position: relative;
+  padding: 135px;
+  margin-left: -270px;
+}
+.ghost {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -50px;
+  mix-blend-mode: exclusion;
+  animation: ghost 5s ease-in-out infinite;
+}
+@keyframes ghost {
+  to {
+    left: 1350px;
+  }
 }
