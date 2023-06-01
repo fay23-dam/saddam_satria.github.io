@@ -1,0 +1,89 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cxb {
+  height: 90vh;
+  width: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#pilih h3 {
+  font-size: 34px;
+}
+.fasilitas {
+  width: 100%;
+  display: flex;
+
+  /* background: transparent; */
+}
+.fasilitas .description h5 {
+  font-size: 20px;
+}
+
+.fasilitas .description p {
+  text-align: left;
+  font-size: 15px;
+  color: #848484;
+}
+
+.fasilitas:hover .icon-des {
+  background: white;
+}
+
+.fasilitas.active .icon-des {
+  background: white;
+}
+
+.fasilitas .icon-des i {
+  margin-right: 10px;
+  font-size: 44px;
+  color: black;
+}
+#devisi .card {
+  padding: 30px 30px;
+  border-radius: 10px;
+  height: 100%;
+}
+#devisi .card h3 {
+  font-size: 34px;
+}
+#devisi .cinema {
+  background-color: #dbf3fe;
+  color: #2db6fa;
+}
+#devisi .desain {
+  color: #f68c09;
+  background: #fde3c4;
+}
+#devisi .robotik {
+  color: #08da4e;
+  background: #cffddf;
+}
+#devisi .foto {
+  color: #b50edf;
+  background: #f8e4fd;
+}
+#devisi .logo {
+  margin: auto;
+  margin-bottom: 25px;
+  width: 76px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 34px;
+}
+#devisi img {
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+#devisi .satu {
+  border-top-right-radius: 15%;
+}
+#devisi .dua {
+  border-bottom-left-radius: 15%;
+}
